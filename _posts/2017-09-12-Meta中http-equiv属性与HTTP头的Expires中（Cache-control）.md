@@ -24,9 +24,9 @@ tags: html meta cache
 其中`http-equiv` 属性主要有以下几种参数
 
 1、 `Expires`
-
 说明：可以用于设定网页的到期时间。一旦网页过期，必须到服务器上重新传输。 
 用法：
+
 ```html
 <meta http-equiv="expires" content="Wed, 20 Jun 2007 22:33:00 GMT">
 ```
@@ -34,6 +34,7 @@ tags: html meta cache
 2、`Pragma`(`cache`模式)
 说明：是用于设定禁止浏览器从本地机的缓存中调阅页面内容，设定后一旦离开网页就无法从`Cache`中再调出。
 用法：
+
 ```html 
 <meta http-equiv="Pragma" content="no-cache">
 ```
@@ -41,11 +42,13 @@ tags: html meta cache
 3. `Refresh`(刷新)
 说明：自动刷新并指向新页面。
 用法：
+
 ```html 
 <meta http-equiv="Refresh" content="2；URL=http://www.net.cn/">
 ```
 **注意：其中的2是指停留2秒钟后自动刷新到URL网址。**
 4. `Set-Cookie`(`cookie`设定)
+
 ```html 
 <meta http-equiv="Set-Cookie" content="cookievalue=xxx;expires=Wednesday, 20-Jun-2007 22:33:00 GMT； path=/">
 ```
@@ -53,6 +56,7 @@ tags: html meta cache
 5. `Window-target`(显示窗口的设定)
 说明：强制页面在当前窗口以独立页面显示。
 用法：
+
 ```html 
 <meta http-equiv="Window-target" content="_top">
 ```
@@ -60,17 +64,20 @@ tags: html meta cache
 6. `content-Type`(显示字符集的设定)
 说明：设定页面使用的字符集。
 用法：
+
 ```html 
 <meta http-equiv="content-Type" content="text/html; charset=gb2312">
 ```
 7. `Pics-label`(网页等级评定)
 用法：
+
 ```html 
 <meta http-equiv="Pics-label" contect="">
 ```
 **说明：在`IE` 的`internet` 选项中有一项内容设置，可以防止浏览一些受限制的网站，而网站的限制级别就是通过`meta`属性来设置的。**
 8. `Page_Enter`、`Page_Exit` 
 设定进入页面时的特殊效果
+
 ```html 
 <meta http-equiv="Page-Enter" contect="revealTrans(duration=1.0,transtion=12)">
 ```
@@ -97,18 +104,24 @@ tags: html meta cache
  |20   |  从左下角向右上角展开   |  21   |  水平线状展开   |
  |22   |  垂直线状展开    | 23   |  随机产生一种过渡方式   |
 9. 清除缓存（再访问这个网站要重新下载！）
+
 ```html 
 <meta http-equiv="cache-control" content="no-cache">
 ```
 10. 设定网页的到期时间
+
 ```html 
 <meta http-equiv="expires" content="0">
 ```
 11. 关键字,给搜索引擎用的
+
 ```html 
 <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 ```
 12. 页面描述
+
 ```html 
 <meta http-equiv="description" content="This is my page">
 ```
+
+dddd
