@@ -3,6 +3,7 @@ layout: post
 title: 'Meta中http-equiv属性与HTTP头的Expires中（Cache-control）'
 date: 2017-09-12
 author: smallsat
+categories: html cache
 tags: html meta cache
 ---
 

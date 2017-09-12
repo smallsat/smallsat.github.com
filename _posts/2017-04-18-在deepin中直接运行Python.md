@@ -2,7 +2,8 @@
 layout: post
 title: '直接在deepin中运行.py'
 date: 2017-04-18
-author: smallman
+author: smallsat
+categories: Linux python
 tags: python deepin
 ---
 
