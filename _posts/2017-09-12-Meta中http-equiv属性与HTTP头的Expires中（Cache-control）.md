@@ -30,7 +30,6 @@ tags: html meta cache
 <meta http-equiv="expires" content="Wed, 20 Jun 2007 22:33:00 GMT">
 ```
 **注意：必须使用`GMT`的时间格式。**
-
 2. `Pragma`(`cache`模式)
 说明：是用于设定禁止浏览器从本地机的缓存中调阅页面内容，设定后一旦离开网页就无法从`Cache`中再调出。
 用法：
@@ -38,7 +37,6 @@ tags: html meta cache
 <meta http-equiv="Pragma" content="no-cache">
 ```
 **注意：这样设定，访问者将无法脱机浏览。**
-
 3. `Refresh`(刷新)
 说明：自动刷新并指向新页面。
 用法：
@@ -58,24 +56,19 @@ tags: html meta cache
 <meta http-equiv="Window-target" content="_top">
 ```
 **注意：用来防止别人在框架里调用自己的页面。**
-
 6. `content-Type`(显示字符集的设定)
-
- 说明：设定页面使用的字符集。
- 用法：
+说明：设定页面使用的字符集。
+用法：
 ```html
 <meta http-equiv="content-Type" content="text/html; charset=gb2312">
 ```
 7. `Pics-label`(网页等级评定)
-
 用法：
 ```html
 <meta http-equiv="Pics-label" contect="">
 ```
 **说明：在`IE` 的`internet` 选项中有一项内容设置，可以防止浏览一些受限制的网站，而网站的限制级别就是通过`meta`属性来设置的。**
-
 8. `Page_Enter`、`Page_Exit` 
-
 设定进入页面时的特殊效果
 ```html
 <meta http-equiv="Page-Enter" contect="revealTrans(duration=1.0,transtion=12)">
@@ -86,6 +79,7 @@ tags: html meta cache
 ```
 `Duration` 的值为网页动态过渡的时间，单位为秒。
 `Transition` 是过渡方式，它的值为0到23，分别对应24种过渡方式。如下表：
+
 |   |   |   |   |
 | ------------ | ------------ | ------------ | ------------ |
 |0  |  盒状收缩  |  1 |   盒状放射  |
@@ -100,27 +94,19 @@ tags: html meta cache
  |18   |  从右下角向左上角展开   |  19   |  从左上角向右下角展开   |
  |20   |  从左下角向右上角展开   |  21   |  水平线状展开   |
  |22   |  垂直线状展开    | 23   |  随机产生一种过渡方式   |
-
 9. 清除缓存（再访问这个网站要重新下载！）
-
 ```html
 <meta http-equiv="cache-control" content="no-cache">
 ```
-
 10. 设定网页的到期时间
-
 ```html
 <meta http-equiv="expires" content="0">
 ```
-
 11. 关键字,给搜索引擎用的
-
 ```html 
 <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 ```
-
 12. 页面描述
-
 ```html
 <meta http-equiv="description" content="This is my page">
 ```
