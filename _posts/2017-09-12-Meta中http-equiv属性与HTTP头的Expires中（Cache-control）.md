@@ -137,5 +137,3 @@ tags: html meta cache
 ```html 
 <meta http-equiv="description" content="This is my page">
 ```
-
-ccc
