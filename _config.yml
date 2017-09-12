@@ -23,7 +23,7 @@ search: true
 nightMode: true
 
 # Comments
-disqus: false
+disqus: true
 disqus_url: 'https://unpkg.com/embed-js@5.0.2/umd/embed.js'
 
 # Share
