@@ -23,6 +23,7 @@ tags: html meta cache
 ```
 其中`http-equiv` 属性主要有以下几种参数
 1. `Expires`
+
 说明：可以用于设定网页的到期时间。一旦网页过期，必须到服务器上重新传输。 
 用法：
 ```html
@@ -36,4 +37,4 @@ tags: html meta cache
 <meta http-equiv="Pragma" content="no-cache">
 ```
 **注意：这样设定，访问者将无法脱机浏览。**
-bbb
+ccc
