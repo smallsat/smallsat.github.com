@@ -27,11 +27,9 @@ tags: html meta cache
 
 说明：可以用于设定网页的到期时间。一旦网页过期，必须到服务器上重新传输。 
 用法：
-
 ```html
 <meta http-equiv="expires" content="Wed, 20 Jun 2007 22:33:00 GMT">
 ```
-
 **注意：必须使用`GMT`的时间格式。**
 
 2. `Pragma`(`cache`模式)
