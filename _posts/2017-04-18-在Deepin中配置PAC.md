@@ -3,6 +3,7 @@ layout: post
 title: '在Deepin中配置PAC'
 date: 2017-04-18
 categories: Linux
+author: smallsat
 tags: deepin PAC Linux
 ---
 

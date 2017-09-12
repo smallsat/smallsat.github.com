@@ -1,3 +1,11 @@
+---
+layout: post
+title: 'Meta中http-equiv属性与HTTP头的Expires中（Cache-control）'
+date: 2017-09-12
+author: smallsat
+tags: html meta cache
+---
+
 ## 一、概述
 1. `http-equiv` 顾名思义，相当于 `http` 的文件头作用，它可以向浏览器传回一些有用的信息，以帮助正确和精确地显示网页内容，与之对应的属性值为`content` ，`content` 中的内容其实就是各个参数的变量值。
 2. `Cache-control`用于控制`HTTP` 缓存（在`HTTP/1.0` 中可能部分没实现，仅仅实现了`Pragma: no-cache）` 
