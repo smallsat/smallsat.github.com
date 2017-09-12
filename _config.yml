@@ -20,7 +20,7 @@ avatar: 'assets/img/16948088.jpg'
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments
 disqus: true
