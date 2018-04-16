@@ -11,6 +11,7 @@ tags: wss workerman websocket
 # 配置`workerman`的监听
     这里踩过的坑比较少，还比较好理解。代码是基于 `thinkphp`
     
+    
 1. $this->stock = "127.0.0.1:2346";
 这里的端口可以更改
 2. 启动服务
