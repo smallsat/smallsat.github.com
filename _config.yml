@@ -2,8 +2,8 @@
 title: '佟佳林的个人博客'
 description: 'A PHPer'
 keyword: 'php,分享'
-url: 'https://smallsat.github.io/' # your host
-baseurl: '/'
+url: 'https://smallsat.gitee.io/' # your host
+baseurl: 'https://smallsat.gitee.io/'
 
 # Navigation links
 nav:
