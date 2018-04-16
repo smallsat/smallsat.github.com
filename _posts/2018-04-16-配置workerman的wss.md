@@ -9,6 +9,7 @@ tags: wss workerman websocket
 
 在使用`workerman`的过程中，需要配置`wss`，在这期间踩了很多的坑，这里详细记录下过程
 # 配置`workerman`的监听
+
     这里踩过的坑比较少，还比较好理解。代码是基于 `thinkphp`
     
     
