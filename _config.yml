@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: '佟佳林的个人博客'
+title: 'smallsat的个人博客'
 description: 'A PHPer'
 keyword: 'php,分享'
 url: 'https://smallsat.github.io/' # your host
@@ -11,7 +11,7 @@ nav:
   tags: '/tags.html'
 
 # Author 配置博主信息
-author: '佟佳林'
+author: 'smallsat'
 nickname: 'smallsat'
 bio: 'PHPer'
 avatar: 'assets/img/16948088.jpg'
