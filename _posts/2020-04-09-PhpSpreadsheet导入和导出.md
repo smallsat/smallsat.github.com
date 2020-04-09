@@ -7,9 +7,7 @@ categories: PHP PHPOffice
 tags: PHP Excel PHPOffice
 ---
 
-[TOC]
-
-#安装
+# 安装
 ```php
 composer reuqire phpoffice/phpspreadsheet
 ```
